@@ -1,6 +1,6 @@
 const router = require('express').Router();
 //Wiki and User is from the file in Models folder > wait for Tom
-const { Wiki, User } = require('../modles');
+const { Wiki, User} = require('Main/models');
 const withAuth = require('../utils/auth');
 
 router.get('/', async (req, res) => {
