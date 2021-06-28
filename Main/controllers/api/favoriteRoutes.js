@@ -7,7 +7,7 @@ router.post('/', async (req, res) => {
     try {
         const newFav = await Favorite.create({
             ...req.body,
-            user_id: req.session.user_id,
+            //user_id: req.session.user_id,
         });
         res.status(200).json(newFav);
     }catch (err){
