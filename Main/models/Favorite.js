@@ -14,10 +14,20 @@ Favorite.init(
     wiki_id: {
        type: DataTypes.INTEGER,
        allowNull: false,
+       references: {
+        // This references the `wiki` model, which we set in `Wiki.js` as its `modelName` property
+        model: 'wiki',
+        key: 'id',
+      },
     },
     user_id: {
         type: DataTypes.INTEGER,
       allowNull: false,
+      references: {
+        // This references the `user` model, which we set in `User.js` as its `modelName` property
+        model: 'user',
+        key: 'id',
+      },
     },
     },
   {
