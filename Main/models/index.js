@@ -1,5 +1,5 @@
 const User = require('./User');
-const Project = require('./Wiki');
+const Wiki = require('./Wiki');
 const Favorite = require('./Favorite');
 
-module.exports = { User, Project, Favorite };
+module.exports = { User, Wiki, Favorite };

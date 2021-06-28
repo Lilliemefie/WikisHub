@@ -11,7 +11,15 @@ Wiki.init(
       primaryKey: true,
       autoIncrement: true,
     },
+    name:{
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
     wiki_url: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
+    category: {
       type: DataTypes.STRING,
       allowNull: false,
     },
