@@ -21,6 +21,7 @@ router.get('/', async (req, res) => {
             wikis,
             logged_in: req.session.logged_in
         });
+        //res.status(200).json(wikis);
     }catch (err){
         res.status(500).json(err);
     }
