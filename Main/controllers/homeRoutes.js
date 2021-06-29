@@ -1,27 +1,23 @@
 const router = require('express').Router();
 //Wiki and User is from the file in Models folder
-const { Wiki, User } = require('../models');
+const { Wiki, User, Favorite } = require('../models');
 const withAuth = require('../utils/auth');
 
 router.get('/', async (req, res) => {
     try {
         //Get all wikis and JOIN with user data
         const wikiData = await Wiki.findAll({
-            include: [
-                {
-                    model: User,
-                    attributes: ['name'],
-                },
-            ],
+            // JOIN with User, using the Favorite through table
+            include: [{ model: User, through: Favorite, as: 'user_data'}],
         });
         // Serialize data so the template can read it
         const wikis = wikiData.map((wiki) => wiki.get({plain: true}));
         // Pass serialized data and session flag into template
-        res.render('homepage', {
-            wikis,
-            logged_in: req.session.logged_in
-        });
-        //res.status(200).json(wikis);
+        // res.render('homepage', {
+        //     wikis,
+        //     logged_in: req.session.logged_in
+        // });
+        res.status(200).json(wikis);
     }catch (err){
         res.status(500).json(err);
     }
@@ -30,13 +26,8 @@ router.get('/', async (req, res) => {
 router.get('/wiki/:id', async (req, res) => {
     try {
         const wikiData = await Wiki.findByPk(req.params.id, {
-          include: [
-            {
-              model: User,
-              attributes: ['name'],
-            },
-          ],
-        });
+                include: [{ model: User, through: Favorite, as: 'user_data'}],
+            });
 
         const wikis = wikiData.get({ plain: true });
     
