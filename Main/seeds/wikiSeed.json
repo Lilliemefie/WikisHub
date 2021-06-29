@@ -1,63 +1,147 @@
 [
     {
-    "name": "Comics",
-    "wiki_url": "https://en.wikipedia.org/wiki/Comics",
-    "category": "Comics",
-    "description": "A history of comics as a medium"
+        "name": "Comics",
+        "wiki_url": "https://en.wikipedia.org/wiki/Comics",
+        "category": "Comics",
+        "description": "A history of comics as a medium"
     },
     {
-    "name": "ComicsOne",
-    "wiki_url": "https://en.wikipedia.org/wiki/ComicsOne",
-    "category": "Comics",
-    "description": "A wiki about ComicsOne Corp- an American distributor of Asian Comics"
+        "name": "ComicsOne",
+        "wiki_url": "https://en.wikipedia.org/wiki/ComicsOne",
+        "category": "Comics",
+        "description": "A wiki about ComicsOne Corp- an American distributor of Asian Comics"
     },
     {
-    "name": "Glee",
-    "wiki_url": "https://glee.fandom.com/wiki/Glee_TV_Show_Wiki",
-    "category": "TV",
-    "description": "A wiki about the TV show Glee"
+        "name": "Glee",
+        "wiki_url": "https://glee.fandom.com/wiki/Glee_TV_Show_Wiki",
+        "category": "TV",
+        "description": "A wiki about the TV show Glee"
     },
     {
-    "name": "AdventureTime",
-    "wiki_url": "https://adventuretime.fandom.com/wiki/Adventure_Time_with_Finn_and_Jake_Wiki",
-    "category": "TV",
-    "description": "A wiki about the TV show Adventure Time"
+        "name": "AdventureTime",
+        "wiki_url": "https://adventuretime.fandom.com/wiki/Adventure_Time_with_Finn_and_Jake_Wiki",
+        "category": "TV",
+        "description": "A wiki about the TV show Adventure Time"
     },
     {
-    "name": "Disney",
-    "wiki_url": "https://disney.fandom.com/wiki/The_Disney_Wiki",
-    "category": "Movies",
-    "description": "A wiki about disney movies and other related properties"
+        "name": "Disney",
+        "wiki_url": "https://disney.fandom.com/wiki/The_Disney_Wiki",
+        "category": "Movies",
+        "description": "A wiki about disney movies and other related properties"
     },
     {
-    "name": "Rio",
-    "wiki_url": "https://rio.fandom.com/wiki/Rio_Wiki",
-    "category": "Movies",
-    "description": "A wiki about the movies Rio and Rio2"
+        "name": "Rio",
+        "wiki_url": "https://rio.fandom.com/wiki/Rio_Wiki",
+        "category": "Movies",
+        "description": "A wiki about the movies Rio and Rio2"
     },
     {
-    "name": "Hamilton",
-    "wiki_url": "https://hamiltonmusical.fandom.com/wiki/Hamilton_Wiki",
-    "category": "Music",
-    "description": "A wiki about the music from the broadway musical Hamilton"
+        "name": "Hamilton",
+        "wiki_url": "https://hamiltonmusical.fandom.com/wiki/Hamilton_Wiki",
+        "category": "Music",
+        "description": "A wiki about the music from the broadway musical Hamilton"
     },
     {
-    "name": "JLo",
-    "wiki_url": "https://jenniferlopez.fandom.com/wiki/Jennifer_Lopez_Wiki",
-    "category": "Music",
-    "description": "A wiki about the music of Jennifer Lopez"
+        "name": "JLo",
+        "wiki_url": "https://jenniferlopez.fandom.com/wiki/Jennifer_Lopez_Wiki",
+        "category": "Music",
+        "description": "A wiki about the music of Jennifer Lopez"
     },
     {
-    "name": "AngryBirds",
-    "wiki_url": "https://angrybirds.fandom.com/wiki/Angry_Birds_Wiki",
-    "category": "Games",
-    "description": "A wiki about the various games under the Angry Birds title"
+        "name": "AngryBirds",
+        "wiki_url": "https://angrybirds.fandom.com/wiki/Angry_Birds_Wiki",
+        "category": "Games",
+        "description": "A wiki about the various games under the Angry Birds title"
     },
     {
-    "name": "FinalFantasy",
-    "wiki_url": "https://finalfantasy.fandom.com/wiki/Final_Fantasy_Wiki",
-    "category": "Games",
-    "description": "A wiki about the various Final Fantasy games"
+        "name": "FinalFantasy",
+        "wiki_url": "https://finalfantasy.fandom.com/wiki/Final_Fantasy_Wiki",
+        "category": "Games",
+        "description": "A wiki about the various Final Fantasy games"
+    },
+    {
+        "name": "GTA",
+        "wiki_url": "https://gta.fandom.com/wiki/Main_Page",
+        "category": "Games",
+        "description": "A wiki about the Grand Theft Auto (GTA) series of games"
+    },
+    {
+        "name": "The Hunder Games",
+        "wiki_url": "https://thehungergames.fandom.com/wiki/The_Hunger_Games_Wiki",
+        "category": "Movies",
+        "description": "A wiki about all series of The Hunger Games"
+    },
+    {
+        "name": "Home Before Dark",
+        "wiki_url": "https://home-before-dark.fandom.com/wiki/Home_Before_Dark_Wiki",
+        "category": "TV",
+        "description": "A wiki about Home Before Dark, a 10-episode web television series for Apple TV+"
+    },
+    {
+        "name": "Why Women Kill",
+        "wiki_url": "https://whywomenkill.fandom.com/wiki/Why_Women_Kill_Wiki",
+        "category": "TV",
+        "description":" A wiki about a TV serie Why Women Kill"
+    },
+    {
+        "name": "Pokémon",
+        "wiki_url": "https://pokemon.fandom.com/wiki/Pok%C3%A9mon_Wiki",
+        "category": "Games",
+        "description": "A wiki about the Pokémon World on the net"
+    },
+    {
+        "name": "MArvel Cinematic Universe",
+        "wiki_url": "https://marvelcinematicuniverse.fandom.com/wiki/Marvel_Cinematic_Universe_Wiki",
+        "category": "Movies",
+        "description": "A wiki about all Marvel related media"
+    },
+    {
+        "name": "Billie Eilish",
+        "wiki_url": "https://billieeilish.fandom.com/wiki/Billie_Eilish_Wiki",
+        "category": "Music",
+        "description": "A wiki about the music of Billie Eilish "
+    },
+    {
+        "name": "Jurassic",
+        "wiki_url": "https://jurassicpark.fandom.com/wiki/Jurassic_Park_Wiki",
+        "category": "Movies",
+        "description": "A wiki about series of Jurassic"
+    },
+    {
+        "name": "Rick and Morty",
+        "wiki_url": "https://rickandmorty.fandom.com/wiki/Rickipedia",
+        "category": "TV",
+        "description": "A wiki about the movie Rick and Morty"
+    },
+    {
+        "name": "Super Mario",
+        "wiki_url": "https://mario.fandom.com/wiki/MarioWiki",
+        "category": "Games",
+        "description": "A wiki about everything related to the ever popular Mario series"
+    },
+    {
+        "name": "Odd Taxi",
+        "wiki_url": "https://oddtaxi.fandom.com/wiki/Odd_Taxi_Wiki",
+        "category": "Comics",
+        "description": "A wiki about everything related to the anime Odd Taxi  "
+    },
+    {
+        "name": "James Bond",
+        "wiki_url": "https://jamesbond.fandom.com/wiki/James_Bond_Wiki",
+        "category": "Movies",
+        "description": "A wiki about a resource of everything James Bond"
+    },
+    {
+        "name": "Warframe",
+        "wiki_url": "https://warframe.fandom.com/wiki/WARFRAME_Wiki",
+        "category": "Games",
+        "description": " A wiki about the game on everything ranging from gameplay explanations, weapon statistics, combat mechanics, to the titular Warframes and the background lore of the WARFRAME universe."
+    },
+    {
+        "name": "One Piece",
+        "wiki_url": "https://onepiece.fandom.com/wiki/One_Piece_Wiki",
+        "category": "Comics",
+        "description": "A wiki about everything related to One Piece"
     }
-   
+
 ]
