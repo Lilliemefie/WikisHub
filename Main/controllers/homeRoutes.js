@@ -7,21 +7,21 @@ router.get('/', async (req, res) => {
     try {
         //Get all wikis and JOIN with user data
         const wikiData = await Wiki.findAll({
-            include: [
+            /*include: [
                 {
                     model: User,
                     attributes: ['name'],
                 },
-            ],
+            ],*/
         });
         // Serialize data so the template can read it
         const wikis = wikiData.map((wiki) => wiki.get({plain: true}));
         // Pass serialized data and session flag into template
-        res.render('hompage', {
+        /*res.render('hompage', {
             wikis,
             logged_in: req.session.logged_in
-        });
-        //res.status(200).json(wikis);
+        });*/
+        res.status(200).json(wikis);
     }catch (err){
         res.status(500).json(err);
     }
@@ -44,6 +44,7 @@ router.get('/wiki/:id', async (req, res) => {
           ...wikis,
           logged_in: req.session.logged_in
         });
+        //res.status(200).json(wikis);
       } catch (err) {
         res.status(500).json(err);
       }
