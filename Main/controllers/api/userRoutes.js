@@ -22,20 +22,20 @@ router.post('/', async (req, res) => {
   
       if (!userData) {
         res
-          .status(400)
-          .json({ message: 'Incorrect email or password, please try again' });
+          .status(404)
+          .json({ message: '1Incorrect email or password, please try again' });
         return;
       }
-  
+      console.log('before');
       const validPassword = await userData.checkPassword(req.body.password);
-  
+      console.log('after');
       if (!validPassword) {
         res
-          .status(400)
-          .json({ message: 'Incorrect email or password, please try again' });
+          .status(404)
+          .json({ message: '2Incorrect email or password, please try again' });
         return;
       }
-  
+      res.json({ user: userData, message: 'You are now logged in!' });
       req.session.save(() => {
         req.session.user_id = userData.id;
         req.session.logged_in = true;
