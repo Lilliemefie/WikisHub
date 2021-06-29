@@ -31,30 +31,32 @@ router.get('/wiki/:id', async (req, res) => {
 
         const wikis = wikiData.get({ plain: true });
     
-        res.render('wiki', {
-          ...wikis,
-          logged_in: req.session.logged_in
-        });
+        //res.render('wiki', {
+        //  ...wikis,
+        //  logged_in: req.session.logged_in
+        //});
+        res.status(200).json(wikis);
       } catch (err) {
         res.status(500).json(err);
       }
 });
 
 // Use withAuth middleware to prevent access to route
-router.get('/wiki', withAuth, async (req, res) => {
+router.get('/profile', withAuth, async (req, res) => {
     try {
       // Find the logged in user based on the session ID
       const userData = await User.findByPk(req.session.user_id, {
         attributes: { exclude: ['password'] },
-        include: [{ model: Project }],
+        include: [{ model: Wiki, through: Favorite, as: 'wiki_data' }],
       });
   
       const user = userData.get({ plain: true });
   
-      res.render('profile', {
-        ...user,
-        logged_in: true
-      });
+      //res.render('profile', {
+      //  ...user,
+      //  logged_in: true
+      //});
+      res.status(200).json(user);
     } catch (err) {
       res.status(500).json(err);
     }
@@ -67,7 +69,7 @@ router.get('/wiki', withAuth, async (req, res) => {
       return;
     }
   
-    res.render('login');
+    //res.render('login');
   });
   
   module.exports = router;
