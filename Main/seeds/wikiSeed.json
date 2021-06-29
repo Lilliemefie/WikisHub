@@ -1,0 +1,63 @@
+[
+    {
+    "name": "Comics",
+    "wiki_url": "https://en.wikipedia.org/wiki/Comics",
+    "category": "Comics",
+    "description": "A history of comics as a medium"
+    },
+    {
+    "name": "ComicsOne",
+    "wiki_url": "https://en.wikipedia.org/wiki/ComicsOne",
+    "category": "Comics",
+    "description": "A wiki about ComicsOne Corp- an American distributor of Asian Comics"
+    },
+    {
+    "name": "Glee",
+    "wiki_url": "https://glee.fandom.com/wiki/Glee_TV_Show_Wiki",
+    "category": "TV",
+    "description": "A wiki about the TV show Glee"
+    },
+    {
+    "name": "AdventureTime",
+    "wiki_url": "https://adventuretime.fandom.com/wiki/Adventure_Time_with_Finn_and_Jake_Wiki",
+    "category": "TV",
+    "description": "A wiki about the TV show Adventure Time"
+    },
+    {
+    "name": "Disney",
+    "wiki_url": "https://disney.fandom.com/wiki/The_Disney_Wiki",
+    "category": "Movies",
+    "description": "A wiki about disney movies and other related properties"
+    },
+    {
+    "name": "Rio",
+    "wiki_url": "https://rio.fandom.com/wiki/Rio_Wiki",
+    "category": "Movies",
+    "description": "A wiki about the movies Rio and Rio2"
+    },
+    {
+    "name": "Hamilton",
+    "wiki_url": "https://hamiltonmusical.fandom.com/wiki/Hamilton_Wiki",
+    "category": "Music",
+    "description": "A wiki about the music from the broadway musical Hamilton"
+    },
+    {
+    "name": "JLo",
+    "wiki_url": "https://jenniferlopez.fandom.com/wiki/Jennifer_Lopez_Wiki",
+    "category": "Music",
+    "description": "A wiki about the music of Jennifer Lopez"
+    },
+    {
+    "name": "AngryBirds",
+    "wiki_url": "https://angrybirds.fandom.com/wiki/Angry_Birds_Wiki",
+    "category": "Games",
+    "description": "A wiki about the various games under the Angry Birds title"
+    },
+    {
+    "name": "FinalFantasy",
+    "wiki_url": "https://finalfantasy.fandom.com/wiki/Final_Fantasy_Wiki",
+    "category": "Games",
+    "description": "A wiki about the various Final Fantasy games"
+    }
+   
+]
