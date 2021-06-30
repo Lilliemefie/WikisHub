@@ -1,5 +1,5 @@
  <div>
-    <form action="/action_page.php">
+    <form>
         <label for="cars">Choose a category:</label>
         <select name="categories" id="categories">
             <option value="choose">Select</option>
@@ -9,8 +9,15 @@
             <option value="comics">Comics</option>
         </select>
         <br><br>
-        <input type="submit" value="Submit">
+        <input type="submit" value="Submit" id="submit">
       </form>
     <h1>Welcome!</h1>
     <h5>Wiki Hive connects you to all your favorite fan sites. Discover new wikis that peak your interest, and make new friends who share similar interests. Log in or sign up to get started!</h5>
 </div>
+
+<script type="text/javascript">
+  document.getElementById('submit').onsubmit = function(){
+    event.preventDefault();
+    location.replace("/catgories/" + getElementById("categories").value);
+}
+</script>
