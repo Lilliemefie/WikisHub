@@ -1,0 +1,9 @@
+    {{#each wikis as |wiki|}}
+    <div class="card">
+        <img src="{{image_url}}" alt="Avatar" style="width:10%">
+        <div class="container">
+            <h4><b><a href="wiki/{{wiki.id}}">{{name}}</a></b></h4>
+            <p>{{description}}</p>
+        </div>
+    </div>
+    {{/each}}
