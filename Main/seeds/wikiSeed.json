@@ -3,145 +3,169 @@
         "name": "Comics",
         "wiki_url": "https://en.wikipedia.org/wiki/Comics",
         "category": "Comics",
-        "description": "A history of comics as a medium"
+        "description": "A history of comics as a medium",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Little_Nemo_sea.jpg/300px-Little_Nemo_sea.jpg"
     },
     {
         "name": "ComicsOne",
         "wiki_url": "https://en.wikipedia.org/wiki/ComicsOne",
         "category": "Comics",
-        "description": "A wiki about ComicsOne Corp- an American distributor of Asian Comics"
+        "description": "A wiki about ComicsOne Corp- an American distributor of Asian Comics",
+        "image_url": "https://en.wikipedia.org/wiki/ComicsOne#/media/File:Comicsonelogo.jpg"
     },
     {
         "name": "Glee",
         "wiki_url": "https://glee.fandom.com/wiki/Glee_TV_Show_Wiki",
         "category": "TV",
-        "description": "A wiki about the TV show Glee"
+        "description": "A wiki about the TV show Glee",
+        "image_url": "https://static.wikia.nocookie.net/glee/images/e/e4/S5Cast.png/revision/latest/scale-to-width-down/660?cb=20150126235609"
     },
     {
         "name": "AdventureTime",
         "wiki_url": "https://adventuretime.fandom.com/wiki/Adventure_Time_with_Finn_and_Jake_Wiki",
         "category": "TV",
-        "description": "A wiki about the TV show Adventure Time"
+        "description": "A wiki about the TV show Adventure Time",
+        "image_url": "https://static.wikia.nocookie.net/adventuretimewithfinnandjake/images/6/6f/Adventure_Time_logo.png/revision/latest/scale-to-width-down/310?cb=20190608043049"
     },
     {
         "name": "Disney",
         "wiki_url": "https://disney.fandom.com/wiki/The_Disney_Wiki",
         "category": "Movies",
-        "description": "A wiki about disney movies and other related properties"
+        "description": "A wiki about disney movies and other related properties",
+        "image_url": "https://static.wikia.nocookie.net/disney/images/8/89/Wiki-wordmark.png/revision/latest?cb=20210530161507"
     },
     {
         "name": "Rio",
         "wiki_url": "https://rio.fandom.com/wiki/Rio_Wiki",
         "category": "Movies",
-        "description": "A wiki about the movies Rio and Rio2"
+        "description": "A wiki about the movies Rio and Rio2",
+        "image_url": "https://img2.wikia.nocookie.net/__cb20140710144944/rio/images/8/89/Wiki-wordmark.png"
     },
     {
         "name": "Hamilton",
         "wiki_url": "https://hamiltonmusical.fandom.com/wiki/Hamilton_Wiki",
         "category": "Music",
-        "description": "A wiki about the music from the broadway musical Hamilton"
+        "description": "A wiki about the music from the broadway musical Hamilton",
+        "image_url": "https://vignette4.wikia.nocookie.net/hamiltonmusical/images/8/89/Wiki-wordmark.png/revision/latest?cb=20160903212629"
     },
     {
         "name": "JLo",
         "wiki_url": "https://jenniferlopez.fandom.com/wiki/Jennifer_Lopez_Wiki",
         "category": "Music",
-        "description": "A wiki about the music of Jennifer Lopez"
+        "description": "A wiki about the music of Jennifer Lopez",
+        "image_url": "https://static.wikia.nocookie.net/jenniferlopez/images/4/47/Brave102.jpg/revision/latest/scale-to-width-down/670?cb=20141015162645"
     },
     {
         "name": "AngryBirds",
         "wiki_url": "https://angrybirds.fandom.com/wiki/Angry_Birds_Wiki",
         "category": "Games",
-        "description": "A wiki about the various games under the Angry Birds title"
+        "description": "A wiki about the various games under the Angry Birds title",
+        "image_url": "https://vignette.wikia.nocookie.net/angrybirds/images/8/89/Wiki-wordmark.png/revision/latest?cb=20200111031826"
     },
     {
         "name": "FinalFantasy",
         "wiki_url": "https://finalfantasy.fandom.com/wiki/Final_Fantasy_Wiki",
         "category": "Games",
-        "description": "A wiki about the various Final Fantasy games"
+        "description": "A wiki about the various Final Fantasy games",
+        "image_url": "https://static.wikia.nocookie.net/finalfantasy/images/b/bc/Wiki.png/revision/latest/scale-to-width-down/300?cb=20200722215822"
     },
     {
         "name": "GTA",
         "wiki_url": "https://gta.fandom.com/wiki/Main_Page",
         "category": "Games",
-        "description": "A wiki about the Grand Theft Auto (GTA) series of games"
+        "description": "A wiki about the Grand Theft Auto (GTA) series of games",
+        "image_url": "https://static.wikia.nocookie.net/gtawiki/images/e/e6/Site-logo.png/revision/latest?cb=20210520095113"
     },
     {
-        "name": "The Hunder Games",
+        "name": "The Hunger Games",
         "wiki_url": "https://thehungergames.fandom.com/wiki/The_Hunger_Games_Wiki",
         "category": "Movies",
-        "description": "A wiki about all series of The Hunger Games"
+        "description": "A wiki about all series of The Hunger Games",
+        "image_url": "https://static.wikia.nocookie.net/thehungergames/images/d/dd/MP-Welcome-Enter.png/revision/latest/scale-to-width-down/608?cb=20200608145807"
     },
     {
         "name": "Home Before Dark",
         "wiki_url": "https://home-before-dark.fandom.com/wiki/Home_Before_Dark_Wiki",
         "category": "TV",
-        "description": "A wiki about Home Before Dark, a 10-episode web television series for Apple TV+"
+        "description": "A wiki about Home Before Dark, a 10-episode web television series for Apple TV+",
+        "image_url": "https://images.wikia.com/home_before_dark/images/8/89/Wiki-wordmark.png"
     },
     {
         "name": "Why Women Kill",
         "wiki_url": "https://whywomenkill.fandom.com/wiki/Why_Women_Kill_Wiki",
         "category": "TV",
-        "description":" A wiki about a TV serie Why Women Kill"
+        "description":" A wiki about a TV serie Why Women Kill",
+        "image_url": "https://static.wikia.nocookie.net/whywomenkill/images/8/89/Wiki-wordmark.png/revision/latest?cb=20210615020052"
     },
     {
         "name": "Pokémon",
         "wiki_url": "https://pokemon.fandom.com/wiki/Pok%C3%A9mon_Wiki",
         "category": "Games",
-        "description": "A wiki about the Pokémon World on the net"
+        "description": "A wiki about the Pokémon World on the net",
+        "image_url": "https://static.wikia.nocookie.net/pokemon/images/8/89/Wiki-wordmark.png/revision/latest?cb=20201101192001"
     },
     {
-        "name": "MArvel Cinematic Universe",
+        "name": "Marvel Cinematic Universe",
         "wiki_url": "https://marvelcinematicuniverse.fandom.com/wiki/Marvel_Cinematic_Universe_Wiki",
         "category": "Movies",
-        "description": "A wiki about all Marvel related media"
+        "description": "A wiki about all Marvel related media",
+        "image_url": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/e/e6/Site-logo.png/revision/latest?cb=20210531191339"
     },
     {
         "name": "Billie Eilish",
         "wiki_url": "https://billieeilish.fandom.com/wiki/Billie_Eilish_Wiki",
         "category": "Music",
-        "description": "A wiki about the music of Billie Eilish "
+        "description": "A wiki about the music of Billie Eilish ",
+        "image_url": "https://vignette.wikia.nocookie.net/wherearetheavocados/images/8/89/Wiki-wordmark.png/revision/latest?cb=20190304220512"
     },
     {
         "name": "Jurassic",
         "wiki_url": "https://jurassicpark.fandom.com/wiki/Jurassic_Park_Wiki",
         "category": "Movies",
-        "description": "A wiki about series of Jurassic"
+        "description": "A wiki about series of Jurassic",
+        "image_url": "https://vignette.wikia.nocookie.net/jurassicpark/images/8/89/Wiki-wordmark.png/revision/latest?cb=20200311033348"
     },
     {
         "name": "Rick and Morty",
         "wiki_url": "https://rickandmorty.fandom.com/wiki/Rickipedia",
         "category": "TV",
-        "description": "A wiki about the movie Rick and Morty"
+        "description": "A wiki about the movie Rick and Morty",
+        "image_url": "https://static.wikia.nocookie.net/rickandmorty/images/e/e6/Site-logo.png/revision/latest?cb=20210602041720"
     },
     {
         "name": "Super Mario",
         "wiki_url": "https://mario.fandom.com/wiki/MarioWiki",
         "category": "Games",
-        "description": "A wiki about everything related to the ever popular Mario series"
+        "description": "A wiki about everything related to the ever popular Mario series",
+        "image_url": "https://vignette.wikia.nocookie.net/mario/images/8/89/Wiki-wordmark.png/revision/latest?cb=20200819121038"
     },
     {
         "name": "Odd Taxi",
         "wiki_url": "https://oddtaxi.fandom.com/wiki/Odd_Taxi_Wiki",
         "category": "Comics",
-        "description": "A wiki about everything related to the anime Odd Taxi  "
+        "description": "A wiki about everything related to the anime Odd Taxi  ",
+        "image_url": "https://static.wikia.nocookie.net/oddtaxi/images/8/89/Wiki-wordmark.png/revision/latest?cb=20210224122959"
     },
     {
         "name": "James Bond",
         "wiki_url": "https://jamesbond.fandom.com/wiki/James_Bond_Wiki",
         "category": "Movies",
-        "description": "A wiki about a resource of everything James Bond"
+        "description": "A wiki about a resource of everything James Bond",
+        "image_url": "https://vignette4.wikia.nocookie.net/jamesbond/images/8/89/Wiki-wordmark.png/revision/latest?cb=20170707142121"
     },
     {
         "name": "Warframe",
         "wiki_url": "https://warframe.fandom.com/wiki/WARFRAME_Wiki",
         "category": "Games",
-        "description": " A wiki about the game on everything ranging from gameplay explanations, weapon statistics, combat mechanics, to the titular Warframes and the background lore of the WARFRAME universe."
+        "description": " A wiki about the game on everything ranging from gameplay explanations, weapon statistics, combat mechanics, to the titular Warframes and the background lore of the WARFRAME universe.",
+        "image_url": "https://vignette.wikia.nocookie.net/warframe/images/8/89/Wiki-wordmark.png/revision/latest?cb=20190402072402"
     },
     {
         "name": "One Piece",
         "wiki_url": "https://onepiece.fandom.com/wiki/One_Piece_Wiki",
         "category": "Comics",
-        "description": "A wiki about everything related to One Piece"
+        "description": "A wiki about everything related to One Piece",
+        "image_url": "https://vignette.wikia.nocookie.net/onepiece/images/8/89/Wiki-wordmark.png/revision/latest?cb=20171208194712"
     }
 
 ]
