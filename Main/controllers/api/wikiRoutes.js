@@ -2,7 +2,6 @@ const router = require('express').Router();
 const { Wiki } = require('../../models/');
 
 router.post('/', async (req, res) => {
-  console.log('hellow world');
     try {
       const newWiki = await Wiki.create({
         ...req.body,
