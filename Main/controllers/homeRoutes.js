@@ -13,11 +13,11 @@ router.get('/', async (req, res) => {
         // Serialize data so the template can read it
         const wikis = wikiData.map((wiki) => wiki.get({plain: true}));
         // Pass serialized data and session flag into template
-        // res.render('homepage', {
-        //     wikis,
-        //     logged_in: req.session.logged_in
-        // });
-        res.status(200).json(wikis);
+         res.render('homepage', {
+             wikis,
+             logged_in: req.session.logged_in
+         });
+        //res.status(200).json(wikis);
     }catch (err){
         res.status(500).json(err);
     }
@@ -31,11 +31,11 @@ router.get('/wiki/:id', async (req, res) => {
 
         const wikis = wikiData.get({ plain: true });
     
-        //res.render('wiki', {
-        //  ...wikis,
-        //  logged_in: req.session.logged_in
-        //});
-        res.status(200).json(wikis);
+        res.render('wiki', {
+          ...wikis,
+          logged_in: req.session.logged_in
+        });
+        //res.status(200).json(wikis);
       } catch (err) {
         res.status(500).json(err);
       }
