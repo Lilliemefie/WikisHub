@@ -69,7 +69,7 @@ router.get('/profile', withAuth, async (req, res) => {
       return;
     }
   
-    //res.render('login');
+    res.render('login');
   });
   
   module.exports = router;
