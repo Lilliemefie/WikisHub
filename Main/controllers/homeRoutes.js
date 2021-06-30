@@ -29,13 +29,13 @@ router.get('/wiki/:id', async (req, res) => {
                 include: [{ model: User, through: Favorite, as: 'user_data'}],
             });
 
-        const wikis = wikiData.get({ plain: true });
-    
+        const wiki = wikiData.get({ plain: true });
+            console.log(wiki);
         res.render('wiki', {
-          ...wikis,
+          ...wiki,
           logged_in: req.session.logged_in
         });
-        //res.status(200).json(wikis);
+        //res.status(200).json(wiki);
       } catch (err) {
         res.status(500).json(err);
       }
