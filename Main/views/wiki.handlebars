@@ -1,5 +1,25 @@
-<h1>wikipedia</h1>
-    <h2>Wikipedia is to search for anything you could posibly think of</h2>
+    <img src="{{image_url}}" alt="{{name}} image">
+    <h1>{{name}}</h1>
+    <h2>{{description}}</h2>
+    <div>
+        <iframe src="{{wiki_url}}" width="80%" height="500" style="border:none;">
+        </iframe>
+    </div>
+    
+    <div>
+        <button>
+            Add to Favorite
+        </button>
+        <ul>
+            {{#each user_data as |user|}}
 
-    <iframe src="https://www.wikipedia.org/" width="80%" height="900" style="border:none;">
-    </iframe>
+            <li>
+                {{user_name}}
+            </li>
+
+            {{/each}}
+
+            
+        </ul>
+
+    </div>
