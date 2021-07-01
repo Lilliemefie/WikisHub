@@ -7,3 +7,19 @@
         </div>
     </div>
     {{/each}}
+    <p>Don't see a wiki? <button id="add-wiki">Add New Wiki</button></p>
+    
+
+
+<script type="text/javascript">
+
+const addWiki = async (event) => {
+    event.preventDefault();
+    document.location.replace('/new-wiki');
+};
+
+document
+  .querySelector('#add-wiki')
+  .addEventListener('click', addWiki);
+
+</script>
