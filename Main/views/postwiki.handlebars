@@ -36,7 +36,40 @@
                 <input class="form-input" type="text" id="img-url" name="img-url" />
             </div>
             <div class="form-group">
-                <button type="submit" class="btn btn-primary">Create</button>
+                <button type="submit" class="btn btn-primary" id="create">Create</button>
             </div>
         </form>
     </div>
+
+<script type="text/javascript">
+
+    const addWiki = async (event) => {
+        event.preventDefault();
+        const name = document.querySelector('#wiki-name').value.trim();
+        const wiki_url = document.querySelector('#wiki-url').value.trim();
+        const category = document.querySelector('#categories').value.trim();
+        const description = document.querySelector('#wiki-desc').value.trim();
+        const image_url = document.querySelector('#img-url').value.trim();
+
+
+        if (name && wiki_url && category && description && image_url) {
+            const response = await fetch('/new-wiki', {
+                method: 'POST',
+                body: JSON.stringify({name, wiki_url, category, description, image_url}),
+                headers: { 'Content-Type': 'application/json' },
+            });
+
+            if (response.ok) {
+                document.location.replace('/category/' + category);
+            } else {
+                //document.location.replace('/hompage');
+            }
+        }
+        //document.location.replace('/homepage');
+    };
+
+    document
+        .querySelector('#create')
+        .addEventListener('click', addWiki);
+
+</script>

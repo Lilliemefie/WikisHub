@@ -46,7 +46,7 @@ router.get('/category/:category', async (req, res) => {
   }
 });
 
-router.get('/wiki/:id', async (req, res) => {
+router.get('/category/wiki/:id', async (req, res) => {
     try {
         const wikiData = await Wiki.findByPk(req.params.id, {
                 include: [{ model: User, through: Favorite, as: 'user_data'}],
@@ -93,6 +93,28 @@ router.get('/profile', withAuth, async (req, res) => {
     }
   
     res.render('login');
+  });
+
+  router.get('/new-wiki', (req, res) => {
+    // If the user is already logged in, redirect the request to another route
+    if (!req.session.logged_in) {
+      res.redirect('/profile'); //do we have 'profile' ??
+      return;
+    }
+  
+    res.render('postWiki');
+  });
+
+  router.post('/new-wiki', async (req, res) => {
+    try {
+      const newWiki = await Wiki.create({
+        ...req.body,
+      });
+  
+      res.status(200).json(newWiki);
+    } catch (err) {
+      res.status(400).json(err);
+    }
   });
   
   module.exports = router;
