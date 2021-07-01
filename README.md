@@ -5,6 +5,8 @@
 WIKI HIVE is a website/application where a user can find and search different wikis that they may find interesting. 
 Users are able to save their favorite wikis to their profile so they can have easy access to them and share their interests with others. We want users to be able to post new wikis to the site for others to find and enjoy.
 
+This is our presentation for our concept and other detail: [Wiki Hive Presentation](https://www.canva.com/design/DAEi8GsBc_E/cCW_xiW4ggjdDnd1UwJQeg/view?utm_content=DAEi8GsBc_E&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
+
 ## Table of Contents 
 - [Installation](#installation)
 - [Usage](#usage)
